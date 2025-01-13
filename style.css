@@ -104,11 +104,11 @@ main section{
 
 .yunus{
     background-color: rgb(241, 241, 241);
-    padding: 50px;
-    border-radius: 8px;
     background-image: url('assets/quote-bg.png');
+    padding: 20px !important;
+    border-radius: 8px;
     background-repeat: no-repeat;
-    background-position: top left;
+    min-height: 100px;
 }
 .card1{
     display: flex;
@@ -139,11 +139,11 @@ img{
     padding: 30px;
 }
 .btn{
-    padding: 20px;
-    margin: 0 auto;
+    padding: 30px;
+    margin: 0 30px;
     border-radius: 10px;
-    width: 200px;
-    height: 120px;
+    width: 290px;
+    height: 150px;
     font-size: 30px;
     font-weight: bolder;
     border: none;
@@ -219,3 +219,4 @@ footer input[type="Email"]
   .last img{
     margin-right: 20px;
   }
+  
