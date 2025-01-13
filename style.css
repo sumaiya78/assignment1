@@ -11,8 +11,9 @@ body{
     background-color: #ffffff;
 }
 header{
-    background-color: rgb(145, 190, 165);
-    padding: 100px;
+    background-color: rgb(177, 212, 177);
+    padding: 70px;
+    border-radius: 15px;
 }
 .banner{
     display: flex;
@@ -27,13 +28,13 @@ header{
     background-color: rgb(29, 53, 29);
     font-weight: bold;
     color: white;
-    padding: 18px 35px;
-    border-radius: 5px;
+    padding: 30px;
+    /* padding: 18px 35px; */
+    border-radius: 10px;
     border: none;
     font-size: 20px;
 }
 .btn-primary2{
-    background-color: orange;
     font-weight: bold;
     color: white;
     padding: 18px 35px;
@@ -62,16 +63,34 @@ header{
 }
 .pillar-des2{
     padding: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    background-color: rgb(248, 232, 142);
+}
+.cal1{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.cal2{
+    background-color:rgb(238, 209, 190);
+}
+.cal3{
+    background-color:rgb(243, 203, 151);
+}
+.btn11{
+    background-color: rgb(240, 160, 12);
+}
+.btn22{
+    background-color: rgb(160, 85, 0);
+}
+.btn33{
+    background-color: rgb(252, 81, 38);
 }
 main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
 .section-title{
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
     color: #181818;
 }
@@ -81,6 +100,8 @@ main section{
 .dark-21{
     color: #2e2d2d;
 }
+
+
 .yunus{
     background-color: rgb(241, 241, 241);
     padding: 50px;
@@ -91,16 +112,21 @@ main section{
 }
 .card1{
     display: flex;
-    padding: 30px;
+    padding: 40px;
     background-color: white;
+    border-radius: 10px;
 }
 .sub-card{
     padding: 30px;
+    margin-left: 20px;
+}
+img{
+    border-radius: 20px;
 }
 .recent{
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
-    padding: 100px;
+    padding: 80px;
 }
 .recent-img{
     border-radius: 10px red;
@@ -110,13 +136,14 @@ main section{
 }
 .donate{
     text-align: center;
+    padding: 30px;
 }
 .btn{
-    padding: 50px;
-    margin: 0 30px;
+    padding: 20px;
+    margin: 0 auto;
     border-radius: 10px;
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 120px;
     font-size: 30px;
     font-weight: bolder;
     border: none;
@@ -173,3 +200,22 @@ footer input[type="Email"]
     font-size: 30px;
 
  }
+ .btn:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .inp{
+    font-size: 20px;
+  }
+  .but:hover{
+    background-color: #04AA6D;
+    color: white;
+  }
+  .last
+  {
+    padding: 50px;
+    text-align: center;
+  }
+  .last img{
+    margin-right: 20px;
+  }
