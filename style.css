@@ -108,3 +108,68 @@ main section{
 .card1{
     margin-bottom: 30px;
 }
+.donate{
+    text-align: center;
+}
+.btn{
+    padding: 50px;
+    margin: 0 30px;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: none;
+}
+.font{
+    font-size: 23px;
+}
+.btn1{
+    background-color: rgb(177, 212, 177);
+}
+main input[type="number"]
+ {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: none;
+    background-color: #eeecec;
+    text-align: center;
+    font-size: 30px;
+ }
+ .bt{
+    margin-top: 40px;
+ }
+.footer{
+    text-align: center;
+    background-color: rgb(177, 212, 177);
+    padding: 150px;
+    border-radius: 10px;
+}
+.font2{
+    font-size: 30px;
+}
+.font1{
+    font-size: 20px;
+}
+footer input[type="Email"]
+ {
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: none;
+    background-color: #eeecec;
+    text-align: center;
+    font-size: 30px;
+
+ }
